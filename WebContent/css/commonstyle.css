@@ -1,0 +1,646 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+
+
+@font-face {
+font-family: "Din";
+src: url("../fonts/Din Font/DIN Medium.ttf");
+
+}
+
+.header-font{
+	
+	font-family:"Din";
+	font-size:26px;
+	color:teal !important;
+}
+.navbar.navbar-inverse.navbar-fixed-top {
+    border-top: 2px solid #f39c12;
+}
+
+
+body
+{
+	width:100%
+}
+
+title
+{
+	color:teal !important;
+	
+}
+a
+{
+	color:teal !important;
+}
+.navbar-header
+{
+	margin-left: -180px !important;
+}
+
+
+footer
+{
+	
+   position: fixed;
+    bottom: 5px !important;
+    text-align: center !important;
+    left: 600px;
+}
+.nav navbar-nav navbar-right
+{
+	margin-left: -300px !important;
+	
+}
+
+.search-back{
+	
+	opacity:0.7;
+ background-color:black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    background-position-x: 120%;
+    background-position-y: 40%;
+    position:fixed;
+}
+
+
+#Mainheading{	 left: 320px;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -400px;
+    position: absolute;
+    top: 70%;  
+    width: 100%;
+    color:teal;
+    font-size: 100px;
+    font-family:Freestyle Script;
+    }
+    
+       
+#vid
+{
+		margin-top:350px !important;
+		height:400px !important;
+		margin-left: 400px  !important;
+		opacity:1 !important;
+		
+		 
+    
+}
+
+
+.container1
+{
+width: 425px;
+height: 250px;
+text-align: center;
+background-color: teal;
+border-radius: 4px;
+margin: 0 auto;
+margin-top: 150px;
+}
+
+#username
+{
+
+
+margin-top: 80px;
+
+}
+
+
+
+
+
+.container1 button 
+{
+height: 35px;
+
+background-color:black;
+color: teal;
+
+}
+
+.container1 a 
+{
+margin-right: 30px;	
+color:black !important;
+}
+#lit
+{
+	margin-top: 30px;
+}
+
+.containerregister
+{
+width: 450px;
+height: 530px;
+text-align: center;
+background-color: teal;
+border-radius: 4px;
+margin: 0 auto;
+margin-top: 80px;
+}
+
+#firstname
+{
+
+margin-top: 50px;
+
+}
+
+.containerregister button 
+{
+height: 35px;
+text-align:center;
+background-color:black;
+margin-left:140px;
+color: teal;
+
+}
+
+.containerregister a 
+{
+margin-right: 30px;	
+color:black !important;
+}
+
+#mem
+{
+	
+	margin-left:60px;
+	
+	
+}
+
+.containercontact
+{
+width: 450px;
+height: 400px;
+text-align: center;
+background-color: teal;
+border-radius: 4px;
+margin: 0 auto;
+margin-top: 150px;
+}
+
+#contactusername
+{
+
+margin-top: 50px;	
+margin-left: 10px;
+width: 300px;
+}
+
+#contactEmailid
+{
+	margin-top: 10px;
+    margin-left: 85px;
+
+width: 300px;
+
+}
+#contactbox
+{
+height: 115px;
+width: 300px;
+margin-top: 15px;
+margin-left: 75px;
+}
+
+.containercontact button 
+{
+height: 35px;
+margin-top : 20px;
+text-align:center;
+background-color:black;
+color: teal;
+
+}
+
+ 
+ #a1{
+
+width:1200px;
+margin-left:10px;
+margin-top:10px;
+}
+#search
+{
+	    margin-top: 5px;
+	
+     margin-left: 80px;
+	 width: 400px;
+    box-sizing:content-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-size:20px;
+    background-image: url("../images/serach.png");
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+.itemdrop
+{
+	box-sizing:content-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+#star
+{
+	margin-left: 20px;
+	
+}
+
+#start{
+	box-sizing:content-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+	
+	
+}
+
+#en
+{
+	margin-left: 20px;
+	
+}
+
+#end{
+	box-sizing:content-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+	
+	
+}
+#discrip
+{
+	margin-left: 20px;
+	
+}
+
+#a2
+{
+	background-color: #e6e8e8;
+    margin-left: 1070px;
+    height:475px;
+    width: auto;
+    overflow: hidden;
+    margin-top: -550px;
+}
+#back
+{
+	margin-top: 60px;
+	height: 60px;
+	background-color:#e6e8e8;
+}
+#cd
+{
+	margin-right:5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+
+#description
+{
+	margin-left: 80px;
+  
+}
+
+#fname
+{
+    height: 30px;
+    margin-left: 30px;
+    width: 300px;
+    margin-top: 5px;
+ 
+}
+#lname
+{
+    height: 30px;
+    margin-left: 30px;
+    width: 300px;
+    margin-top: 5px;
+}
+#homephone
+{
+       height: 30px;
+    margin-left: 25px;
+    margin-top: 5px;
+    width: 300px;
+}
+#homecity
+{
+       height: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 300px;
+}
+#zipcodehome
+{
+       height: 30px;
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 300px;
+}
+#homeaddress
+{
+        width: 300px;
+    margin-left: 80px;
+    
+}
+
+
+#finame,#lsname,#numb,#addres,#cit,#zi,#discrip
+{
+	margin-left: 10px;
+}
+
+#img1
+{
+	height: 150px;
+}
+#img2,#img5,#img6,#img7
+{
+	height: 150px;
+}
+#img3
+{
+	height: 150px;
+}
+#img4
+{
+	height: 150px;
+}
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropbtn{
+    margin-top:30px;
+    background-color: teal;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height:200px;
+    width:200px;
+    margin-left: 50px;
+}
+
+
+
+.post
+{
+
+margin-top: 20px;
+    margin-left: 480px;
+    background-color: teal;
+    border-radius: 4px;
+    color: black;
+    padding: 15px 32px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.logout
+{
+	background-color: black;
+	color:teal;
+	margin-top:13px;
+	border:black;
+}
+.postings,.messages
+{
+	background-color: black;
+	color:teal;
+	margin-top:13px;
+	border:black;
+}
+#adminp
+{
+	text-align: center;
+	margin-top: 100px;
+	overflow: scroll;
+	
+}
+
+
+table {
+  border: 1px solid black;
+  width: 600px;
+  height: 100px;
+  
+}
+tr {
+  border: 0px;
+  border-color: white;
+ margin-top: 10px;
+}
+
+
+td {
+  border: 0px;
+  border-color: white;
+ margin-top: 10px;
+}
+#postingbody
+{
+    margin-top: 120px;
+    margin-left: 100px;
+       width: fit-content;
+    height: 550px;
+    overflow: scroll;
+}
+#itemposting
+{
+	width: 600px;
+    padding-bottom: 5px;
+}
+#mypostingbody
+{
+	margin-left: 800px;
+	margin-top: -550px;
+	    width: fit-content;
+    height: 550px;
+    overflow: scroll;
+}
+#cattd,#catitem
+{
+color:teal;
+    width: 80px;
+}
+#startcat,#catend,#startdesc
+{
+color: teal;
+}
+#itemwant
+{
+	font-weight: bold;
+}
+#lendbutton
+{
+	margin-left: 250px;
+}
+#postdetailstable
+{
+	margin-top: 100px;
+	margin-left: 50px;
+	border: white;
+}
+#lendermessage
+{
+	margin-left: 50px;
+}
+#sendmessage
+{
+	margin-left: 100px;
+	background-color: black;
+	color:teal;
+	margin-top:13px;
+	border:black;
+}
+#messagebody
+{
+       margin-left: 800px;
+    margin-top: -550px;
+             width: fit-content;
+    height: 550px;
+    overflow: scroll;
+}
+#receivedmessagebody
+{
+       margin-left: 200px;
+      margin-top: 100px;
+            width: fit-content;
+    height: 550px;
+    overflow: scroll;
+}
+#Messagedisplay
+{
+	    width: 500px;
+}
+#postdetails
+{
+	margin-left: 550px;
+
+}
+#lendermessage
+{
+	margin-left: 600px;
+}
+
+#lend,#flag,#deletepost
+{
+	
+    background-color: teal;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+
+#adminhome
+{
+	    margin-left: 450px;
+    margin-top: 100px;
+}
+#dmessage
+{
+	margin-left: 600px;
+}
+#postin,#mp
+{
+	margin-left: 200px;
+}
+#sendemailmessage
+{
+    margin-top: 300px;
+}
+
+
+.password-info-error li.invalid{
+	color:#e60000;
+}
+.password-info-error li.valid{
+	color:green;
+}
+.password-info-error {
+    background: #fefefe;
+    padding: 15px 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 60%;
+    display: none;
+    z-index: 3;
+    width: 359px;
+    left: 40%;
+}
+@media only screen and (min-width:150px) and (max-width: 600px)  {
+body
+{
+	width:200px;
+	
+}
+
+navbar navbar-inverse navbar-fixed-top
+{
+	height:160px;
+}
+
+nav navbar-nav navbar-right li
+{
+	padding-left:0%;
+}
+
+
+footer
+{
+	width:100%;
+	float: left;
+	margin-top: 2%;
+	padding-left: 0%;
+	margin-left: 0px;
+	
+}
+
+
+
+	
+
+}
